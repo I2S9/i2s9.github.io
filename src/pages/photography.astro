@@ -1,0 +1,41 @@
+---
+import { getCollection } from 'astro:content';
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import PhotographyPreview from '../components/PhotographyPreview.astro';
+import Hero from '../components/Hero.astro';
+import Grid from '../components/Grid.astro';
+
+const photography = [
+		{title : "In the sky", img_alt : "In the sky", img_src : "/assets/in-the-sky.jpg"},
+		{title : "Portrait", img_alt : "Portrait", img_src : "/assets/portrait.jpg"},
+		{title : "At Work", img_alt : "At work", img_src : "/assets/at-work.jpg"},
+	]
+---
+
+<BaseLayout
+	title="Photography"
+	description="Photography"
+>
+	<div class="stack gap-20">
+		<main class="wrapper stack gap-8">
+			<Hero
+				title="Photography"
+				tagline="My photo gallery"
+				align="start"
+			/>
+			<Grid variant="offset">
+				{
+					photography.map((photo) => (
+						<li>
+							<PhotographyPreview title={photo.title} img_alt={photo.img_alt} img_src={photo.img_src} />
+						</li>
+					))
+				}
+			</Grid>
+		</main>
+		<ContactCTA />
+	</div>
+</BaseLayout>
