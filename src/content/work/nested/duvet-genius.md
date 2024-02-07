@@ -17,13 +17,7 @@ tags:
 
  Here is a simulation for 300 individuals in our population and 200 generations (we stop the generation of generations by press 'enter') :
 
-in progress
-
-#### Plan
-##### 1. Introduction
-##### 2. NP-Problem
-##### 3. Genetic Algorithm
-##### 4. Path to find a solution
+**in progress*
 
 #### 1. Introduction
 
@@ -37,34 +31,14 @@ The communication cost between two tasks placed on a single processor is neglige
 
 **The goal of this project is to minimize the total cost of execution, ie the sum of execution and communication costs**
 
-Example :
-
-
-<p align="center">
-  <img src="https://github.com/I2S9/task_placement_in_multi_processor_system/assets/111307883/51c2d454-2a54-498a-a73a-0a17c16a6338" width="26%" height="269%">
-</p>
-
-In our case we have 8 tasks and 4 processors :
-- Execution cost: $`q_{11} + q_{21} + q_{34} + q_{41} + q_{52} + q_{63} + q_{72} + q_{84}`$
-
-- Cost of communication: $`C_{45} + C_{46} + C_{78}`$
-
-$`C_{14}, C_{24}`$ and $`C_{38}`$ (hatched links) are not counted because the corresponding tasks were placed on the same processors
-
 ##### 1.1 Input
 
 The input format used will be as follows :
-- $`n`$ : number of tasks
-- $`p`$ : number of processors
-- $`Q`$ : execution costs (matrix n x p)
-- $`C`$ : communication costs (matrix n x n symmetrical therefore storage of the upper triangular part)
-  
-Example :
+- n : number of tasks
+- p : number of processors
+- Q : execution costs (matrix n x p)
+- C : communication costs (matrix n x n symmetrical therefore storage of the upper triangular part)
 
-<p align="center">
- <img src="https://github.com/I2S9/task_placement_in_multi_processor_system/assets/111307883/50772b53-e1a2-432a-a6c8-e78168d33cd1" width="30%" height="30%">
-</p>
-  
 ##### 1.2 Output
 
 Display in the terminal which task is associated with which processor
@@ -92,17 +66,8 @@ Genetic algorithms offer a solution to these questions.
 These algorithms are also an excellent support for the field of Machine Learning, which is a field of study of artificial intelligence. These can be used to optimize a neural network, including training the network through the use of new information in synaptic connections, thus improving network topology to obtain an optimal learning rule: This is called neuroevolution.
 
 Genetic algorithms can also be used to optimize systems based on fuzzy logic, by performing the generation and/or optimization of rules or operators in those systems. 
-</p>
-
-<p align="center">
- <img src="https://github.com/I2S9/task_placement_in_multi_processor_system/assets/111307883/51f31580-e52c-48b9-86ef-ee37738ca0d5" width="50%" height="50%">
-</p>
 
 ##### 3.3 Algorithm 
-
-<p align="center">
- <img src="https://github.com/I2S9/task_placement_in_multi_processor_system/assets/111307883/ee55ce33-90e2-4cc4-8760-b359c33e3540" width="30%" height="30%">
-</p>
 
 The Darwinian theory of evolution is based on two postulates :
 
