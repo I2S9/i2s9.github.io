@@ -29,15 +29,12 @@ The communication cost between two tasks placed on a single processor is neglige
 
 **The goal of this project is to minimize the total cost of execution, ie the sum of execution and communication costs**
 
-###### 1.1 Input
 
 The input format used will be as follows :
 - n : number of tasks
 - p : number of processors
 - Q : execution costs (matrix n x p)
 - C : communication costs (matrix n x n symmetrical therefore storage of the upper triangular part)
-
-###### 1.2 Output
 
 Display in the terminal which task is associated with which processor
 
@@ -48,13 +45,9 @@ Thus, since it is difficult to determine optimal solutions in a reasonable time,
 
 ##### 3. Genetic algorithm
 
-###### 3.1 What is Genetic Algorithm ?
-
 <p align="justify">
 In traditional genetic algorithm, the representation used is a fixed-length bit string.Each position in the string is assumed to represent a particular feature of an individual, and the value stored in that position represents how that feature is expressed in the solution. Usually, the string is “evaluated as a collection of structural features of a solution that have little or no interactions”. The analogy may be drawn directly to genes in biological organisms. Each gene represents an entity that is structurally independent of other genes. The main reproduction operator used is bit-string crossover, in which two strings are used as parents and new individuals are formed by swapping a sub-sequence between the two strings (see Fig. 1.1). Another popular operator is bit-flipping mutation, in which a single bit in the string is flipped to form a new offspring string.
 </p>
-
-###### 3.2 Why would you use it ?
 
 <p align="justify">
  Some problems are too complex to propose an algorithm, or when there is no exact method to solve them, a delicate and/or confusing modeling where the solution to the problem is unknown. Or an algorithm tolerant to data variations, likely to adapt to a new situation, so that it evolves.
@@ -64,8 +57,6 @@ Genetic algorithms offer a solution to these questions.
 These algorithms are also an excellent support for the field of Machine Learning, which is a field of study of artificial intelligence. These can be used to optimize a neural network, including training the network through the use of new information in synaptic connections, thus improving network topology to obtain an optimal learning rule: This is called neuroevolution.
 
 Genetic algorithms can also be used to optimize systems based on fuzzy logic, by performing the generation and/or optimization of rules or operators in those systems. 
-
-###### 3.3 Algorithm 
 
 The Darwinian theory of evolution is based on two postulates :
 
