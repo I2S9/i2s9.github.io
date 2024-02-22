@@ -202,6 +202,10 @@ h5 {
 	flex-direction: column;
 }
 
+.justify-text {
+    text-align: justify;
+}
+
 .gap-2 {
 	gap: 0.5rem;
 }
