@@ -19,13 +19,21 @@ tags:
 
 ##### 1. Introduction
 
+<div class="justify-text">
 We have a set of processes (or tasks) T1,...,Tn of a parallel program and a set of processors P1,...,Pp
+</div>
 
+<div class="justify-text">
 The processors are not identical and we know for each task Ti its execution cost qij on Pj
+</div>
 
+<div class="justify-text">
 If Ti and Tj are not placed on the same processor, then there is a communication cost to the exchange of data between these two tasks
+</div>
 
+<div class="justify-text">
 The communication cost between two tasks placed on a single processor is negligeable
+</div>
 
 **The goal of this project is to minimize the total cost of execution, ie the sum of execution and communication costs**
 
@@ -40,8 +48,10 @@ Display in the terminal which task is associated with which processor
 
 ##### 2. NP problem
 
+<div class="justify-text">
 This problem is difficult in the sense of complexity. There is most likely no effective algorithm to find optimal solutions
 Thus, since it is difficult to determine optimal solutions in a reasonable time, we will use heuristic (fast) approaches to determine good solutions
+</div>
 
 ##### 3. Genetic algorithm
 
