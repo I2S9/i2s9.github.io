@@ -60,13 +60,18 @@ In traditional genetic algorithm, the representation used is a fixed-length bit 
 </p>
 
 <p align="justify">
- Some problems are too complex to propose an algorithm, or when there is no exact method to solve them, a delicate and/or confusing modeling where the solution to the problem is unknown. Or an algorithm tolerant to data variations, likely to adapt to a new situation, so that it evolves.
+Some problems are too complex to propose an algorithm, or when there is no exact method to solve them, a delicate and/or confusing modeling where the solution to the problem is unknown. Or an algorithm tolerant to data variations, likely to adapt to a new situation, so that it evolves.
 For example, how to make the movement of a robot? How to make react this robot following a jostling, a loss of balance? How to adapt the behavior of the robot in the face of danger?
 Genetic algorithms offer a solution to these questions.
+</p>
 
+<p align="justify">
 These algorithms are also an excellent support for the field of Machine Learning, which is a field of study of artificial intelligence. These can be used to optimize a neural network, including training the network through the use of new information in synaptic connections, thus improving network topology to obtain an optimal learning rule: This is called neuroevolution.
+</p>
 
+<p align="justify">
 Genetic algorithms can also be used to optimize systems based on fuzzy logic, by performing the generation and/or optimization of rules or operators in those systems. 
+</p>
 
 The Darwinian theory of evolution is based on two postulates :
 
@@ -94,7 +99,9 @@ Let’s say Pk the population at the first generation and N its size. We go from
 
 <p align="justify">
 In order to develop an effective approach, we first generated a random placement of all tasks and evaluated its cost. If, by chance, this total cost is below the threshold (given not to cross in order to ensure that the distribution of tasks on the multi-processor system is optimized), we return the placement made in the terminal. 
- 
+</p>
+
+<p align="justify">
 If necessary, we sort all the individuals of the population (= tasks) in ascending order and we keep some of them (say the least expensive 2/3) and, with the remaining 1/3, we merge them (crossing process) with individuals belonging to the 2/3, finally we change a task (mutation process) randomly on a processor. We repeat the operation indefinitely until reaching a sufficiently low total cost (in this case below the previously defined threshold). Thus, it is possible to make the choice to enlarge the population or to keep its initial size
 </p>
 
