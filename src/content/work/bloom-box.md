@@ -1,7 +1,7 @@
 ---
 title: Fashion Class Classification
 publishDate: 2024-02-21 00:00:00
-img: /assets/stock-2.jpg
+img: /assets/fashion-class.png
 img_alt: Fashion Class Classification
 description: |
   Fashion Class Classification based on convolutional neural network & deep learning
