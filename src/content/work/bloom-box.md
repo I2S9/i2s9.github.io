@@ -19,9 +19,8 @@ tags:
 **Objective** : build a classifier, build a kind of a deep learning network that can look at these images and can tell us the category of clothes.
 </p>
 
-#### Our Fashion Dataset
+##### Our Fashion Dataset
 
-<p align="justify">
 Fashion dataset contains 28x28 greyscale image with values ranging from 0-255
 
 '0' represents black and '255' represents white
@@ -42,17 +41,16 @@ An image Kernel is a matrix used to apply effects such as blurring and sharpenin
 Kernels are used in machine learning for feature extraction to select most important pixels of an image.
 
 Convolution preserves the spatial relationship between pixels.
-</p>
 
-## Convolutional neural network - RELU
+
+##### Convolutional neural network - RELU
 
 RELU layers are used to add non-linearity in the feature map
 
 It also enhances the sparsity or how scattered the feature map is
 
-## Convolutional neural network - maxpolling/flattening
+##### Convolutional neural network - maxpolling/flattening
 
-<p align="justify">
 Pooling or down sampling layers are placed after convolutional layers to reduce feature map dimensionality
 
 This improves the computational efficiency while preserving the features
@@ -60,4 +58,3 @@ This improves the computational efficiency while preserving the features
 Pooling helps the model to generalize by avoiding overfitting. If one of the pixel is shifted, the pooled feature map will still be the same
 
 Max pooling works by retaining the maximum feature response within a given sample size in a feature map
-</p>
