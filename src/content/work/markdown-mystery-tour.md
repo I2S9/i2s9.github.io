@@ -14,7 +14,9 @@ tags:
 
 ##### 1. Introduction
 
+<p align="justify">
 Breast cancer is the most common cancer among women worldwide. Accounting for 25% of all cancer cases and affected 2.1 million people in 2015. Early diagnosis significantly increases the chances of survival. A key challenge of cancer detection is how to classify tumors into malignant or benign.
+</p>
 
 ML (Machine Learning) techniques can dramatically improve the accuracy of diagnosis. 91% correct diagnosis is achieved using machine learning techniques
 
@@ -46,23 +48,31 @@ That best line, in this case, we are going to rely on mainly two points and thes
 
 We have the maximum margin hyperplane which is the hyperplane or the line that separates mainly the two classes
 
+<p align="justify">
 In order to get this line, we used a distance what we call the maximum margin distance and that's the objective of supportive vector machine classifier is to find or maximize that maximum margin distance between the two classes. In order to do this we use these two mainly points and in this case, we call them support vectors.
+</p>
 
 **Support vectors**
 
+<p align="justify">
 Support vectors are the points that we assume that these points are kind of on the boundary or a kind of on a grey area. That means that they are not fully malignant in this case or benign in this case. It's kind of between where human or physician eyes r example might be able to detect if the cancer is malignant or benign for example if that image is a cat or a dog.
+</p>
 
 Support vector machines are very powerful techniques because it's a kind of an extreme algorithm, it doesn't classify : it just focus on the supportive vectors or the points on the boudary and separate them somehow
 
 ##### 5. Model Evaluation
 
+<p align="justify">
 One of the key features or one of the key objectives of our machine learning techniques is that we want these models to generalize the data. By generalization, we mean that we want the machine learning strategy to train or not train our model specificially r this training dataset. We wanted a model to be general to basically look at the most of the images moving rward of cancer data or images and tell us if it's malignant or benign even if the images haven't been seen bere during training.
+</p>
 
 The model is an overfitted model which means that the model has learned all the characteristics out of only training data, we want a model to be as general as possible.
 
 To evaluate the model, we are using a confusion matrix where the rows show the predictions and all the columns show all the true classes
 
+<p align="justify">
 We have what we call a type I error and type II error. Type I error indicates that the prediction must tell us that the patient has a disease. However r the true class, he actually didn't which is again, it's still an error and we call it a type I error because the patient still ok. However, type II error that's a huge problem and we wanted to avoid it at all costs especially if it's a life-threatening disease like cancer. Here, if we have our true class said it's positive that mean the patient had cancer but we said no, the ML model said that the patient is ok. 
+</p>
 
 ##### 6.Improving the model
 

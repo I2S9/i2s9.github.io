@@ -109,11 +109,11 @@ If necessary, we sort all the individuals of the population (= tasks) in ascendi
 
 ##### References 
 
-[Comprendre les algorithmes génétiques](https://igm.univ-mlv.fr/~dr/XPOSE2013/tleroux_genetic_algorithm/fonctionnement.html)
+[[FR] Comprendre les algorithmes génétiques](https://igm.univ-mlv.fr/~dr/XPOSE2013/tleroux_genetic_algorithm/fonctionnement.html)
 
-[Les Algorithmes génétiques](https://khayyam.developpez.com/articles/algo/genetic/)
+[[FR] Les Algorithmes génétiques](https://khayyam.developpez.com/articles/algo/genetic/)
 
-[Introduction to Genetic Algorithms](https://link.springer.com/book/10.1007/978-3-540-73190-0)
+[[EN] Introduction to Genetic Algorithms](https://link.springer.com/book/10.1007/978-3-540-73190-0)
 
-[Genetic Algorithms | Stanford](https://link.springer.com/book/10.1007/978-3-540-73190-0](https://www-cs-students.stanford.edu/~jl/Essays/ga.html)https://www-cs-students.stanford.edu/~jl/Essays/ga.html)
+[[EN] Genetic Algorithms | Stanford](https://link.springer.com/book/10.1007/978-3-540-73190-0](https://www-cs-students.stanford.edu/~jl/Essays/ga.html)https://www-cs-students.stanford.edu/~jl/Essays/ga.html)
 
