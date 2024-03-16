@@ -48,7 +48,7 @@ We have the maximum margin hyperplane which is the hyperplane or the line that s
 
 In order to get this line, we used a distance what we call the maximum margin distance and that's the objective of supportive vector machine classifier is to find or maximize that maximum margin distance between the two classes. In order to do this we use these two mainly points and in this case, we call them support vectors.
 
-###### Support vectors
+**Support vectors**
 
 Support vectors are the points that we assume that these points are kind of on the boundary or a kind of on a grey area. That means that they are not fully malignant in this case or benign in this case. It's kind of between where human or physician eyes r example might be able to detect if the cancer is malignant or benign for example if that image is a cat or a dog.
 
@@ -64,7 +64,7 @@ To evaluate the model, we are using a confusion matrix where the rows show the p
 
 We have what we call a type I error and type II error. Type I error indicates that the prediction must tell us that the patient has a disease. However r the true class, he actually didn't which is again, it's still an error and we call it a type I error because the patient still ok. However, type II error that's a huge problem and we wanted to avoid it at all costs especially if it's a life-threatening disease like cancer. Here, if we have our true class said it's positive that mean the patient had cancer but we said no, the ML model said that the patient is ok. 
 
-###### 6. Improving the model
+##### 6.Improving the model
 
 * Data normalization method: we're gonna use what we call it unity based normalization which is we wanted to get all the data to be from between 0 and 1.
 
@@ -76,7 +76,7 @@ Other optimization for our model: SVM Parameters Optimization. C parameter : con
 
 * Large C (strict) makes cost of misclassification high (hard margin); forcing the model to explain input data stricter and potentially over fit
 
-**Gamma parameters **: controls how far the influence of a single training set reaches
+Gamma parameters: controls how far the influence of a single training set reaches
 
 * Large gamma: close reach (closer data points have high weight)
 
@@ -84,7 +84,7 @@ Other optimization for our model: SVM Parameters Optimization. C parameter : con
 
 ##### References
 
-[[EN]Github Source Code](https://github.com/I2S9/Breast-cancer)
+[[EN] Github Source Code](https://github.com/I2S9/Breast-cancer)
 
 [[EN] Breast Cancer Detection | ResearchGate](https://www.researchgate.net/publication/271907638_Breast_Cancer_Detection_with_Reduced_Feature_Set)
 
