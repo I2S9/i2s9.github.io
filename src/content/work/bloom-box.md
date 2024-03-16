@@ -16,7 +16,7 @@ tags:
 </p>
 
 <p align="justify">
-**Objective** : build a classifier, build a kind of a deep learning network that can look at these images and can tell us the category of clothes.
+Objective: build a classifier, build a kind of a deep learning network that can look at these images and can tell us the category of clothes.
 </p>
 
 ##### Our Fashion Dataset
@@ -58,3 +58,6 @@ This improves the computational efficiency while preserving the features
 Pooling helps the model to generalize by avoiding overfitting. If one of the pixel is shifted, the pooled feature map will still be the same
 
 Max pooling works by retaining the maximum feature response within a given sample size in a feature map
+
+#### References 
+
