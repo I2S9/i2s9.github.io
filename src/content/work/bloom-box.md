@@ -58,6 +58,3 @@ This improves the computational efficiency while preserving the features
 Pooling helps the model to generalize by avoiding overfitting. If one of the pixel is shifted, the pooled feature map will still be the same
 
 Max pooling works by retaining the maximum feature response within a given sample size in a feature map
-
-#### References 
-
